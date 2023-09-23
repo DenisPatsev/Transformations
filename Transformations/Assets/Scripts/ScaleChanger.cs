@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class CubeMotion : MonoBehaviour
+public class ScaleChanger : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
     private void Update()
     {
-        transform.Rotate(0, 1 * _speed, 0);
+        transform.localScale += new Vector3(1, 1, 1) * _speed;
     }
 }

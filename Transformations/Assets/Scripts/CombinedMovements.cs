@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SecondCubeMotion : MonoBehaviour
+public class CombinedMovements : MonoBehaviour
 {
     [SerializeField] private float _motionSpeed;
     [SerializeField] private float _rotationSpeed;

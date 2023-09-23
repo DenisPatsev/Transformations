@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class CapsuleMotion : MonoBehaviour
+public class RotationChanger : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
     private void Update()
     {
-        transform.localScale += new Vector3(1, 1, 1) * _speed;
+        transform.Rotate(0, 1 * _speed, 0);
     }
 }
